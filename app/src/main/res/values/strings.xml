@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wshop2_ExplicitIntent</string>
+    <string name="youVotedFor">You Voted For</string>
+    <string name="voteNow">Vote Now!</string>
+</resources>
