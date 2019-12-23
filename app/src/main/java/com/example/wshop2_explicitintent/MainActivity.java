@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 int candidateId = intent.getIntExtra("candidateId", -1);
 
+                //把信息传给resultActivity
                 Intent newIntent = new Intent(this, ResultActivity.class);
                 newIntent.putExtra("candidate", candidates.get(candidateId));
 

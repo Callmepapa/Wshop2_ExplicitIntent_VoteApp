@@ -12,7 +12,7 @@ public class ResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
-        //get information from calling activity
+        //通过getIntent强制转换Candidate获取信息 显示再button上
         Candidate candidate = (Candidate) getIntent().getSerializableExtra("candidate");
 
         Button btn = findViewById(R.id.button);
